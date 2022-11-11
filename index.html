@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Build_LATEST.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build_LATEST.data.gz",
-        frameworkUrl: buildUrl + "/Build_LATEST.framework.js.gz",
-        codeUrl: buildUrl + "/Build_LATEST.wasm.gz",
+        dataUrl: buildUrl + "/Build_LATEST.data.unityweb",
+        frameworkUrl: buildUrl + "/Build_LATEST.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build_LATEST.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "PolygonPalm",
@@ -97,7 +97,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Build_LATEST.jpg.gz') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/Build_LATEST.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
